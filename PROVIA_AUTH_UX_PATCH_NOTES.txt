@@ -1,0 +1,1 @@
+Provia Auth UX patch correction: fixed newline encoding in auth-form.tsx. Adds password visibility and Firebase password reset.

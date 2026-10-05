@@ -1,0 +1,6 @@
+.provia-demo/
+.next/
+out/
+.env
+.env.local
+node_modules/

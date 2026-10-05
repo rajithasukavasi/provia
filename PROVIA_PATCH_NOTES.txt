@@ -1,0 +1,15 @@
+PROVIA FINAL CUMULATIVE PATCH
+
+Includes:
+- Premium resume templates and revised typography
+- Slightly larger resume font sizes
+- Profile photo support in resume templates
+- Template, accent, and photo controls
+- Section reorder/hide controls
+- Resume content editing without changing the master profile
+- PDF, JPG and A4 print export fixes
+- Persistent local demo profile, photo and resume storage across sign-out and server restarts
+- Existing Supabase persistence path remains intact for production
+
+Local demo persistence is stored in .provia-demo/data.json and is ignored by git.
+This patch is only for Provia. Do not apply it to TerraConnect.

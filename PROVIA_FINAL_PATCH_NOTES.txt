@@ -1,0 +1,22 @@
+PROVIA FINAL FIREBASE PATCH
+
+This cumulative patch combines the latest Provia UI/resume work with Firebase Authentication + Firestore persistence.
+
+Included:
+- Firebase email/password authentication and server session cookies
+- Firestore profile persistence
+- Firestore resume persistence
+- Profile photo persistence as a compressed data URL in Firestore (Firebase Storage/Blaze not required)
+- Existing A4 PDF/JPG/Print export flow
+- Existing resume templates, profile editor, dashboard and resume workflow
+- Current AI analysis/generation infrastructure
+- Demo-mode photo persistence fallback and build fix
+
+Required environment variables are documented in .env.example.
+Do not overwrite .env.local.
+Do not connect this project to TerraConnect.
+
+After extraction into the existing Provia project, run:
+  pnpm.cmd build
+
+Firebase dependencies are included in package.json. They were already installed in the working Provia project before this patch was prepared.

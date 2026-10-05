@@ -1,0 +1,11 @@
+pmOnFail: ignore
+
+minimumReleaseAgeExclude:
+  - '@next/*'
+  - next
+
+allowBuilds:
+  '@firebase/util': true
+  '@google/genai': true
+  core-js: false
+  protobufjs: true

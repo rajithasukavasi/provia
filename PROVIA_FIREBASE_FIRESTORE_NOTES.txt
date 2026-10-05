@@ -1,0 +1,6 @@
+Provia Firebase Firestore persistence patch
+- Replaces server-side profile/resume persistence with Firebase Admin SDK + Firestore.
+- Keeps existing local demo mode when Firebase is not configured.
+- Profile photo is stored as a small data URL inside the profile document, so Firebase Storage/Blaze is NOT required.
+- Firestore collections: profiles/{uid}, resumes/{resumeId}.
+- Existing Firebase auth session cookie is verified server-side.
