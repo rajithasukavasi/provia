@@ -1,11 +1,8 @@
-pmOnFail: ignore
-
-minimumReleaseAgeExclude:
-  - '@next/*'
-  - next
-
 allowBuilds:
   '@firebase/util': true
   '@google/genai': true
   core-js: false
   protobufjs: true
+
+overrides:
+  "jwks-rsa>jose": "4.15.9"
